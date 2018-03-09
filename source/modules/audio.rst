@@ -5,29 +5,29 @@ audio
 
 .. object:: record
 
-  Singleton instance of :class:`Record`
+   Singleton instance of :class:`Record`
 
 .. object:: noise
 
-  Singleton instance of :class:`Noise`
+   Singleton instance of :class:`Noise`
 
 .. class:: Record
-  
-  Subclass of :class:`dispatch.Dispatch`.
 
-  Only one valid topic: ``'record'``.
+   Subclass of :class:`dispatch.Dispatch`.
 
-  Records audio?
+   Only one valid topic: ``'record'``.
 
-  `count`, `samples`
+   Records audio?
+
+   `count`, `samples`
 
 .. class:: Noise
-  
-  Subclass of :class:`dispatch.Dispatch`.
 
-  .. method:: register(topic, cb)
+   Subclass of :class:`dispatch.Dispatch`.
 
-    Its callbacks receive one argument, the topic.
+   .. method:: register(topic, cb)
 
-    :param str topic: One of: ``'hiss_start'``, ``'hiss_end'``, ``'pop'``.
-    :param cb: A function that takes a :obj:`str`.
+      Its callbacks receive one argument, the topic.
+
+      :param str topic: One of: ``'hiss_start'``, ``'hiss_end'``, ``'pop'``.
+      :param cb: A function that takes a :obj:`str`.

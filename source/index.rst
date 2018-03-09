@@ -1,20 +1,19 @@
-.. talon documentation master file, created by
-   sphinx-quickstart on Tue Mar  6 20:52:59 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to talon's documentation!
+Welcome to Talon's documentation!
 =================================
+
+If you're new to Talon, try :ref:`getting-started`.
+
+Table of Contents
+-----------------
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
    introduction
    modules
 
 Indices and tables
-==================
+------------------
 
 * :ref:`genindex`
 * :ref:`modindex`

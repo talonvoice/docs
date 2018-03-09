@@ -5,21 +5,21 @@ applescript
 
 .. function:: build(source)
 
-  internal function
+   internal function
 
 .. function:: free(handle)
 
-  internal function
+   internal function
 
 .. function:: check(source)
 
-  attempt to compile `source`
+   attempt to compile `source`
 
-  :param str source: Some Applescript.
+   :param str source: Some Applescript.
 
 .. function:: run(source)
 
-  Compile and run some Applescript.
+   Compile and run some Applescript.
 
-  :param str source: Some Applescript.
-  :returns: something?
+   :param str source: Some Applescript.
+   :returns: something?

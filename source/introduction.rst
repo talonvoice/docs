@@ -2,6 +2,8 @@
 Introduction
 ############
 
+.. _getting-started:
+
 Getting Started
 ===============
 
@@ -12,11 +14,8 @@ Getting Started
 4. Run Dragon.app
 5. ``tail -f ~/.talon/talon.log`` for debug output
 
-Programming Talon
-=================
-
 Using the Talon REPL
---------------------
+====================
 
 While Talon is running, it provides a REPL via UNIX socket. You can connect to it with::
 
