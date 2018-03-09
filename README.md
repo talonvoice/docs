@@ -8,8 +8,8 @@ If you have pipenv and Python 3:
 
 1. `git clone https://github.com/talonvoice/docs`
 1. `cd docs`
-1. `pipenv run make html`
-1. open `build/html/index.html`
+1. `pipenv run make html singlehtml`
+1. open `build/html/index.html` or `build/singlehtml/index.html`
 
 ## With plain virtualenv
 
