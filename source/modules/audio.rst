@@ -1,7 +1,7 @@
 audio
 =====
 
-.. module:: audio
+.. module:: talon.audio
 
 .. object:: record
 

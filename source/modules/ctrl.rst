@@ -1,7 +1,7 @@
 ctrl
 ====
 
-.. module:: ctrl
+.. module:: talon.ctrl
 
 .. function:: key_press(key, *, cmd=False, shift=False, ctrl=False, alt=False, fn=False, down=None, up=None, hold=0, wait=0)
 

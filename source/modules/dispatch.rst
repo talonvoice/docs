@@ -1,7 +1,7 @@
 dispatch
 ========
 
-.. module:: dispatch
+.. module:: talon.dispatch
 
 .. class:: Dispatch
 

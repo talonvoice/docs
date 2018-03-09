@@ -10,12 +10,8 @@ Welcome to talon's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   applescript
-   audio
-   clip
-   ctrl
-   dispatch
-   fs
+   introduction
+   modules
 
 Indices and tables
 ==================

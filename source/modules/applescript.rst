@@ -1,7 +1,7 @@
 applescript
 ===========
 
-.. module:: applescript
+.. module:: talon.applescript
 
 .. function:: build(source)
 

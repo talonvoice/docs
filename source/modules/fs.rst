@@ -1,7 +1,7 @@
 fs
 ==
 
-.. module:: fs
+.. module:: talon.fs
 
 .. function:: watch(path, cb)
 

@@ -1,7 +1,7 @@
 clip
 ====
 
-.. module:: clip
+.. module:: talon.clip
 
 Functions for interacting with the clipboard.
 
