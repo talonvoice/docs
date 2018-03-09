@@ -7,7 +7,7 @@ Introduction
 Getting Started
 ===============
 
-1. Install `Talon <talonvoice.com>`_.
+1. Install `Talon <https://talonvoice.com>`_.
 2. Run the Talon app.
 3. Copy ``std.py`` from `<https://github.com/talonvoice/examples>`_ 
    into ``~/.talon/user/`` - read the files for some example commands.
