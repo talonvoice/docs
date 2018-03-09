@@ -83,6 +83,7 @@ html_theme = 'alabaster'
 # html_theme_options = {}
 html_theme_options = {
     'description': 'Next-generation voice control and alternate input.',
+    'fixed_sidebar': True,
     'show_powered_by': False,
 }
 
@@ -109,6 +110,22 @@ html_sidebars = {
     ]
 }
 
+# this changes the sidebar to be more useful for singlehtml builds,
+# by including the entire ToC instead of just a contextual subset of it.
+
+import sphinx.builders.html
+
+def munge_singlehtml_sidebar(app):
+    if isinstance(app.builder, sphinx.builders.html.SingleFileHTMLBuilder):
+        app.config.html_sidebars = {
+            '**': [
+                'about.html',
+                'localtoc.html',
+            ]
+        }
+
+def setup(app):
+    app.connect('builder-inited', munge_singlehtml_sidebar)
 
 # -- Options for HTMLHelp output ---------------------------------------------
 
@@ -141,7 +158,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'talon.tex', 'talon Documentation',
-     'Ryan Hileman, Colin Valliant', 'manual'),
+     'Ryan Hileman', 'manual'),
 ]
 
 

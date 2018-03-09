@@ -1,10 +1,13 @@
-Welcome to Talon's documentation!
-=================================
+.. only:: not singlehtml
 
-If you're new to Talon, try :ref:`getting-started`.
+   Welcome to Talon's documentation!
+   =================================
 
-Table of Contents
------------------
+   If you're new to Talon, try :ref:`getting-started`.
+
+   Table of Contents
+   -----------------
+
 
 .. toctree::
    :maxdepth: 2
