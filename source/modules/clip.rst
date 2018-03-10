@@ -1,30 +1,36 @@
-clip
+talon.clip
 ====
 
-.. module:: talon.clip
+.. module:: clip
 
-Functions for interacting with the clipboard.
+System clipboard interface.
 
-.. function:: get
+.. function:: get() -> str
 
    Get the contents of the clipboard.
 
-   :rtype: str
-
-.. function:: set(s)
+.. function:: set(contents: str)
 
    Set the contents of the clipboard.
 
-   :param str s: the new clipboard content.
+.. function:: serial() -> int
 
-.. function:: serial
+   The clipboard serial increments on each clipboard update and can be used to see if the clipboard has changed.
 
-   Some kind of clipboard epoch number?
-
-.. function:: await_change(timeout=0.5, after=None)
+.. function:: await_change(timeout=0.5, serial=None) -> str
 
    Wait for the clipboard contents to change and return the new contents.
 
-   :param float timeout: if the clipboard hasn't changed after this long, return the current value.
-   :param after:
+   :param float timeout: if the clipboard hasn't changed after this many seconds, returns ``None``
+   :param int serial: if not provided, defaults to ``serial()``
    :rtype: :obj:`str` or :obj:`None`
+
+.. code-block:: python 
+
+   from talon import clip
+
+   s = clip.get()
+   print(s)
+   s = clip.await_change()
+   print(s)
+   clip.set(s.upper() + ' clipboard test')

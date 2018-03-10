@@ -1,33 +1,25 @@
-audio
+talon.audio
 =====
 
-.. module:: talon.audio
+.. module:: audio
 
-.. object:: record
+.. function:: noise.register(topic, cb: function)
 
-   Singleton instance of :class:`Record`
+   Register a noise callback. Valid topics:
 
-.. object:: noise
+       - ``""`` - an empty string registers the callback for all noises.
+       - ``"hiss_start"``
+       - ``"hiss_end"``
+       - ``"pop"``
 
-   Singleton instance of :class:`Noise`
+.. function:: noise.unregister(topic: str, cb: function)
 
-.. class:: Record
+   Unregister a noise callback.
 
-   Subclass of :class:`dispatch.Dispatch`.
+.. code-block:: python 
 
-   Only one valid topic: ``'record'``.
+   from talon import audio
 
-   Records audio?
-
-   `count`, `samples`
-
-.. class:: Noise
-
-   Subclass of :class:`dispatch.Dispatch`.
-
-   .. method:: register(topic, cb)
-
-      Its callbacks receive one argument, the topic.
-
-      :param str topic: One of: ``'hiss_start'``, ``'hiss_end'``, ``'pop'``.
-      :param cb: A function that takes a :obj:`str`.
+   def on_noise(noise):
+       print(noise)
+   audio.noise.register('', on_noise)

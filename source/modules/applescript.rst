@@ -1,25 +1,22 @@
-applescript
+talon.applescript
 ===========
 
-.. module:: talon.applescript
+.. module:: applescript
 
-.. function:: build(source)
+.. function:: check(source: str)
 
-   internal function
+   Check AppleScript `source` for syntax errors. Raises `applescript.ApplescriptErr`.
 
-.. function:: free(handle)
+.. function:: run(source: str) -> str
 
-   internal function
+   Run AppleScript `source`. Raises `applescript.ApplescriptErr` on error. Returns a raw AppleScript encoding of the script's result.
 
-.. function:: check(source)
+.. code-block:: python
 
-   attempt to compile `source`
+   from talon import applescript
 
-   :param str source: Some Applescript.
-
-.. function:: run(source)
-
-   Compile and run some Applescript.
-
-   :param str source: Some Applescript.
-   :returns: something?
+   applescript.run(r'''
+   tell application "System Events"
+       display notification "Hello world."
+   end tell
+   ''')
