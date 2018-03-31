@@ -24,9 +24,9 @@ copyright = '2018, Ryan Hileman'
 author = 'Ryan Hileman'
 
 # The short X.Y version
-version = '0.0.6.7'
+version = '0.0.6.14'
 # The full version, including alpha/beta/rc tags
-release = '0.0.6.7'
+release = '0.0.6.14'
 
 
 # -- General configuration ---------------------------------------------------

@@ -17,11 +17,8 @@ Getting Started
 Using the Talon REPL
 ====================
 
-While Talon is running, it provides a REPL via UNIX socket. You can connect to it with::
+While Talon is running, it provides a REPL. You can connect by running:
 
-    nc -U ~/.talon/.sys/repl.sock
+.. code-block:: bash
 
-If you miss readline support, you can install `rlwrap <https://github.com/hanslub42/rlwrap>`_
-(available in homebrew) and run::
-
-    rlwrap nc -U ~/.talon/.sys/repl.sock
+    ~/.talon/.venv/bin/repl
