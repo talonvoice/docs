@@ -39,10 +39,10 @@ talon.ctrl
 
    Returns which mouse buttons are currently pressed as a list of numbers starting with ``0``.
 
-.. function:: mouse_scroll(x=0, y=0)
+.. function:: mouse_scroll(y=0, x=0)
 
-   :param int x: vertical distance (positive values move down)
-   :param int y: horizontal distance (positive values move right)
+   :param int y: vertical distance (positive values move down)
+   :param int x: horizontal distance (positive values move right)
 
 .. code-block:: python 
 
