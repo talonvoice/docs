@@ -1,5 +1,5 @@
 talon.audio
-=====
+===========
 
 .. module:: audio
 

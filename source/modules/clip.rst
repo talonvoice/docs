@@ -1,5 +1,5 @@
 talon.clip
-====
+==========
 
 .. module:: clip
 

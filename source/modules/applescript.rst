@@ -1,5 +1,5 @@
 talon.applescript
-===========
+=================
 
 .. module:: applescript
 

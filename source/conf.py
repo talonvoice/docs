@@ -82,7 +82,7 @@ html_theme = 'alabaster'
 #
 # html_theme_options = {}
 html_theme_options = {
-    'description': 'Next-generation voice control and alternate input.',
+    'description': 'Powerful hands-free input replacement.',
     'fixed_sidebar': True,
     'show_powered_by': False,
 }
