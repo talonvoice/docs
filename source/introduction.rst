@@ -13,7 +13,7 @@ Beta Info:
 
 * Requires macOS El Capitan (10.11) or newer. Windows/Linux support is on the feature roadmap.
 * Powerful voice control (depends on Dragon 6, and a free engine is in private beta).
-* Two eye-tracked mousing systems (depends on a Tobii 4C).
+* Multiple algorithms for eye tracking mouse control (depends on a single Tobii 4C).
 * Talon still functions if you only have an eye tracker, only have Dragon, or have neither. Only the respective features (eye tracking or voice recognition) will stop working without them.
 * Noise recognition system (pop and hiss).
 * Scriptable with Python 3.5 (via embedded pypy).
