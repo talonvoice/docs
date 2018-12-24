@@ -26,7 +26,7 @@ Getting Started
 1. Install `Talon <https://talonvoice.com>`_.
 2. Run the Talon app.
 3. Add some scripts to ``~/.talon/user`` to voice commands and other behaviour (see the `Getting Scripts`_ section below).
-4. If you have Dragon, start it up and then say "Go to sleep". If you don't have Dragon, you will be using the free
+4. If you have Dragon, start it up and then say "Go to sleep". If you don't have Dragon, you will be using the free engine which is enabled by default.
 5. ``tail -f ~/.talon/talon.log`` for debug output
 6. Further reading: `Dwighthouse's Unofficial Docs <https://github.com/dwighthouse/unofficial-talonvoice-docs>`_.
 
@@ -59,5 +59,3 @@ If you would like further examples, take a look at any of the below scripts. You
 * `jcooper-korg <https://github.com/jcooper-korg/talon_user>`_
 * `lexjacobs <https://github.com/lexjacobs/talon_user>`_
 * `trishume <https://github.com/trishume/talon-config>`_
-* `ekeifl <https://github.com/ekiefl/examples>`_
-* `ym-han <https://github.com/ym-han/examples>`_
