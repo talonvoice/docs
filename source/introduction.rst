@@ -29,6 +29,7 @@ Getting Started
 4. If you have Dragon, start it up and then say "Go to sleep". If you don't have Dragon, there is a builtin free engine that is enabled by default when you install a language from the Speech Recognition menu.
 5. Run ``tail -f ~/.talon/talon.log`` in a terminal for debug output.
 6. Further reading (outdated): `Dwighthouse's Unofficial Docs <https://github.com/dwighthouse/unofficial-talonvoice-docs>`_.
+7. Also see Emily Shea's: `Getting Started with Voice Driven Development <https://whalequench.club/blog/2019/09/03/learning-to-speak-code.html>`_.
 
 Using the Talon REPL
 ====================
