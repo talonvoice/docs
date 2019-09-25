@@ -28,8 +28,9 @@ Getting Started
 3. Add some scripts to ``~/.talon/user`` to add voice commands and other behaviour to Talon (see the `Getting Scripts`_ section below).
 4. If you have Dragon, start it up and then say "Go to sleep". If you don't have Dragon, there is a builtin free engine that is enabled by default when you install a language from the Speech Recognition menu.
 5. Run ``tail -f ~/.talon/talon.log`` in a terminal for debug output.
-6. Further reading (outdated): `Dwighthouse's Unofficial Docs <https://github.com/dwighthouse/unofficial-talonvoice-docs>`_.
-7. Also see Emily Shea's: `Getting Started with Voice Driven Development <https://whalequench.club/blog/2019/09/03/learning-to-speak-code.html>`_.
+6. To list commands, say `"help context" <https://whalequench.club/blog/2019/09/03/learning-to-speak-code.html#all-contexts>`_ or `"help <context name>" <https://whalequench.club/blog/2019/09/03/learning-to-speak-code.html#commands-for-a-context>`_, e.g., `"help alphabet" <https://whalequench.club/blog/2019/09/03/learning-to-speak-code.html#alphabet>`_.
+7. Further reading (outdated): `Dwighthouse's Unofficial Docs <https://github.com/dwighthouse/unofficial-talonvoice-docs>`_.
+8. Also see Emily Shea's: `Getting Started with Voice Driven Development <https://whalequench.club/blog/2019/09/03/learning-to-speak-code.html>`_.
 
 Using the Talon REPL
 ====================
