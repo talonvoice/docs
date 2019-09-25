@@ -11,7 +11,7 @@ Overview
 
 Talon aims to bring programming, realtime video gaming, command line, and full desktop computer proficiency to people who have limited or no use of their hands, and vastly improve productivity and wow-factor of anyone who can use a computer.
 
-`Join the Slack <https://join.slack.com/t/talonvoice/shared_invite/enQtMjUzODA5NzQwNjYzLTY1NzZjNzM4NjVhZjZhYWFlNmZkYmU2YzE2ZjQxZjcyMTgwNDk5NDg2YzhmZDRmNmEwYThkODEyYjY4ZGZmODE>`_ to talk, get hyped, or for help with the public beta.
+`Join the Slack <https://join.slack.com/t/talonvoice/shared_invite/enQtMjUzODA5NzQwNjYzLTNkOGFlNjJkZWE2ODIxMDQ1ODVmODZkNTI2MzU3MzM0OWZmZGFiMmVkNThmMmNmMzVmYzU3ODg5YjkzMzJmMzg>`_ to talk, get hyped, or for help with the public beta.
 
 Beta Info:
 
