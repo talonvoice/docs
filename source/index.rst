@@ -14,6 +14,7 @@
 
    introduction
    modules
+   talonfiles
 
 Indices and tables
 ------------------
