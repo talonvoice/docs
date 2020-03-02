@@ -14,6 +14,7 @@
 
    introduction
    modules
+   beta
 
 Indices and tables
 ------------------
