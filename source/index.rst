@@ -14,7 +14,7 @@
 
    introduction
    modules
-   talonfiles
+   beta
 
 Indices and tables
 ------------------
